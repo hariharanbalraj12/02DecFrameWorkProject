@@ -101,9 +101,14 @@ public class BaseClass {
 				value = String.valueOf(l);
 
 			}
+			
 
 		}
 		return value;
+
+	}
+	private void hariMani() {
+		System.out.println("Hariharan");
 
 	}
 
