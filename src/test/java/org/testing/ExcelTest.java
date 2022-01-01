@@ -2,12 +2,10 @@ package org.testing;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.apache.poi.ss.format.CellFormatType;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DateUtil;
 import org.apache.poi.ss.usermodel.Row;
@@ -53,12 +51,10 @@ public class ExcelTest {
 					}
 					double numcelVal = c.getNumericCellValue();
 					long l = (long) numcelVal;
-					//System.out.println(l);
+					// System.out.println(l);
 					String celVal = String.valueOf(l);
 					System.out.println(celVal);
 
-					
-					
 				}
 
 			}
